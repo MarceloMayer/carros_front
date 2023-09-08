@@ -1,0 +1,14 @@
+.contact_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1{
+    margin-bottom: 20px;
+  }
+
+  p{
+    margin-bottom: 10px;
+  }
+}
