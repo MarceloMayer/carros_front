@@ -10,6 +10,7 @@ import { StockComponent } from './stock/stock.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './shared/components/search/search.component';
 import { FormsModule } from '@angular/forms';
+import { SearchCarsComponent } from './shared/components/search-cars/search-cars.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ContactComponent,
     StockComponent,
-    SearchComponent
+    SearchComponent,
+    SearchCarsComponent
   ],
   imports: [
     BrowserModule,

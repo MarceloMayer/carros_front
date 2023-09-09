@@ -1,0 +1,34 @@
+.wrappe{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+
+  .card_wrappe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .card{
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .card_image{
+      img{
+        width: 260px;
+        height: 200px;
+        border-radius: 5px;
+      }
+
+    }
+  }
+
+
+}
