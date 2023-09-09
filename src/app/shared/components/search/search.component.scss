@@ -1,0 +1,21 @@
+.search_wrappe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin:20px 0;
+
+  input{
+    height: 30px;
+    padding-left: 10px;
+    width: 250px;
+  }
+
+  button{
+    height: 30px;
+    font-weight: 600;
+    width: 60px;
+    cursor: pointer;
+  }
+}
