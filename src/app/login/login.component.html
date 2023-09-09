@@ -1,0 +1,7 @@
+<div class="login_wrapper">
+  <form (submit)="login()">
+    <input type="email" name="email" placeholder="E-mail" [(ngModel)]="user.email">
+    <input type="password" name="password" placeholder="Senha" [(ngModel)]="user.password">
+    <button type="submit">Login</button>
+  </form>
+</div>

@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './shared/components/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { SearchCarsComponent } from './shared/components/search-cars/search-cars.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SearchCarsComponent } from './shared/components/search-cars/search-cars
     ContactComponent,
     StockComponent,
     SearchComponent,
-    SearchCarsComponent
+    SearchCarsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
